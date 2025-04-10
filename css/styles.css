@@ -1,0 +1,127 @@
+body{
+    color: #434455;
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+}
+
+.page-nav .link
+{
+    color: #2e2f42;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    list-style: none;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    list-style: none;
+}
+.page-nav .link:hover,
+.page-nav .link:focus
+{
+    color: #404bbf;
+font-weight: 400;
+}
+.address {
+    font-style: normal;
+}
+.address .link{
+    color: #434455;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+    font-style: normal;
+    letter-spacing: 0.02em;
+    list-style: none;
+}
+
+.address .link:focus,
+.address .link:hover
+{
+    color: #404bbf;
+}
+
+.site-title {
+    font-size: 56px;
+    text-align: center;
+    line-height: 60px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+.second-title {
+    font-size: 36px;
+    text-align: center;
+    line-height: 40px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+.thirt-title {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.text {
+    font-size: 16px;
+    line-height: 1.5;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+
+
+.button {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+.button:hover,
+.button:focus {
+    background-color: #404BBF;
+}
+
+
+.title {
+    background-color: #2e2f42;
+    color: #FFFFFF;
+}
+.invisible-title {
+    color: transparent;
+}
+
+.our-team {
+    background-color: #F4F4FD;
+    list-style: none;
+}
+.our-team-mentors {
+    background-color: #FFFFFF;
+}
+
+.footer {
+    background-color: #2E2F42;
+    color: #F4F4FD;
+}
+.logo {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.logo-studio-header {
+    color: #2e2f42;
+}
+.logo-studio-footer {
+    color: #F4F4FD;
+}
