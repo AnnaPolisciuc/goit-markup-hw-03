@@ -70,13 +70,12 @@ ul, ol {
 }
 .address {
     font-style: normal;
-    margin-left:auto;
+    margin-left: auto;
 }
 
 .address .link{
     display: block;
     padding: 24px 0;
-    gap: 40px;
     color: #434455;
     text-decoration: none;
     font-size: 16px;
@@ -88,6 +87,7 @@ ul, ol {
 .address-links{
     display: flex;
     align-items: center;
+    gap: 40px;
 }
 
 .address .link:focus,
