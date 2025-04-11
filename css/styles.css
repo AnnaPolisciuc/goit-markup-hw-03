@@ -4,8 +4,55 @@ body{
     background-color: #FFFFFF;
 }
 
+*, 
+*::before, 
+*::after {
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+  }
+  
+ul, ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+
+    .a {
+        text-decoration: none;
+    } 
+.conteiner {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.page-header {
+    border-bottom: 1px solid #E7E9FC;
+}
+.header-conteiner {
+    display: flex;
+    align-items: center;
+
+}
+.header-logo {
+    padding: 24px 0;
+    margin-right: 76px;
+}
+.page-nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.nav-list {
+    display: flex;
+    align-items: center;
+} 
 .page-nav .link
 {
+    display: block;
+    padding: 24px 0;
     color: #2e2f42;
     text-decoration: none;
     font-weight: 500;
@@ -19,12 +66,17 @@ body{
 .page-nav .link:focus
 {
     color: #404bbf;
-font-weight: 400;
+    font-weight: 400;
 }
 .address {
     font-style: normal;
+    margin-left:auto;
 }
+
 .address .link{
+    display: block;
+    padding: 24px 0;
+    gap: 40px;
     color: #434455;
     text-decoration: none;
     font-size: 16px;
@@ -32,6 +84,10 @@ font-weight: 400;
     font-style: normal;
     letter-spacing: 0.02em;
     list-style: none;
+}
+.address-links{
+    display: flex;
+    align-items: center;
 }
 
 .address .link:focus,
