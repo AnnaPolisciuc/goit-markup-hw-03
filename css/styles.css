@@ -280,5 +280,9 @@ ul, ol {
 .logo-studio-footer {
     color: #F4F4FD;
     display: inline-block;
+  
+}
+
+.logo-footer {
     margin-bottom: 16px;
 }
