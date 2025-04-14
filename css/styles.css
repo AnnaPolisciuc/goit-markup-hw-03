@@ -207,7 +207,7 @@ ul, ol {
     align-items: center;
     gap: 24px;
 }
-.section2 {
+.section-2 {
     width: calc((100% - 72px) / 4);
 } 
 
