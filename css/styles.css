@@ -207,7 +207,7 @@ ul, ol {
     align-items: center;
     gap: 24px;
 }
-.section-two {
+.about-us-item {
     width: calc((100% - 72px) / 4);
 } 
 
